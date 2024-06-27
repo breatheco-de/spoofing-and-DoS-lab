@@ -1,4 +1,4 @@
-# Spoofing and DDoS practice on web site
+# Spoofing and DDoS on web site
 
 This practice will allow you to better understand spoofing and DDoS techniques, as well as their effects in a web environment.
 
@@ -68,8 +68,6 @@ To carry out this project, we will need 2 virtual machines. One will be the Debi
 
 
 ### Step 2: Obtain the IP Address of the Machines to Connect Them.
-
-Con "Adaptador puente" configurado, las máquinas deberían obtener una dirección IP automáticamente de tu router o servidor DHCP de la red.
 
 #### On the Debian Machine (Web Server):
 * Start the Debian virtual machine.
