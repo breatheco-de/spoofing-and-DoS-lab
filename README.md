@@ -47,7 +47,7 @@ For this specific practice of Spoofing and DoS, it is best to set up the network
 * Virtual machine with Debian (Web Server): Where we have the Apache server and the WordPress site hosted.
 * Spoofing and DoS tools installed on virtual machines.
 * An isolated network environment.
-* Necessary tools?
+* Necessary tools: **arpspoof, hping3, wireshark**
 
 ## 📝 Instructions
 
