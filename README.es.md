@@ -47,7 +47,7 @@ Para esta práctica específica de Spoofing y DoS, lo mejor sería configurar la
 * Máquina virtual con Debian (Servidor Web): Donde tenemos alojado el servidor Apache y el sitio WordPress.
 * Herramientas de spoofing y DoS instaladas en máquinas virtuales.
 * Un entorno de red aislado.
-* Herramientas Necesarias: arpspoof, hping3, wireshark
+* Herramientas Necesarias: **arpspoof, hping3, wireshark**
 
 ## 📝 Instrucciones
 
