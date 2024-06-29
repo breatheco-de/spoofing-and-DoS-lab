@@ -1,13 +1,13 @@
 {
     "language": "node",
     "title": {
-      "us": "traffic-simulation-on-wordpress",
-      "es": "Simulación de trafico en wordpress"
+      "us": "Spoofing and DoS on web site",
+      "es": "Spoofing and DoS on web site"
     },
-    "slug": "traffic-simulation-on-wordpress",
+    "slug": "Spoofing-and-DoS-on-web-site",
     "description": {
-      "us": "Learn how to generate artificial traffic on the WordPress site and implement monitoring tools to detect surges in requests and evaluate server performance.",
-      "es": "Aprende como generar tráfico artificial en el sitio Wordpress e implementa herramientas de monitoreo para detectar las oleadas de peticiones y evaluar el desempeño del servidor."
+      "us": "This practice will allow you to better understand spoofing and DoS techniques, as well as their effects in a web environment.",
+      "es": "Esta práctica te permitirá entender mejor las técnicas de spoofing y DoS, así como sus efectos en un entorno web. "
     },
     "grading": "isolated",
     "repository": "https://github.com/4GeeksAcademy/iptables-blocking-practice",
