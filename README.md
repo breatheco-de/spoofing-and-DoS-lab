@@ -1,6 +1,6 @@
-# Spoofing and DDoS on web site
+# Spoofing and DoS on web site
 
-This practice will allow you to better understand spoofing and DDoS techniques, as well as their effects in a web environment.
+This practice will allow you to better understand spoofing and DoS techniques, as well as their effects in a web environment.
 
 <!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/deploying-wordpress-debian/blob/master/js-bg-badge.png"></a>
@@ -28,7 +28,7 @@ This practice will allow you to better understand spoofing and DDoS techniques, 
 
 
 ### Local Installation:
-Clone the repository to your local environment [repository](https://github.com/breatheco-de/spoofing-and-DDoS-lab) and follow the instructions in the README file.
+Clone the repository to your local environment [repository](https://github.com/breatheco-de/spoofing-and-DoS-lab) and follow the instructions in the README file.
 
 
 ### Requirements
@@ -45,7 +45,7 @@ For this specific practice of Spoofing and DoS, it is best to set up the network
 * Oracle VirtualBox
 * Virtual machine with Kali Linux (Attacker)
 * Virtual machine with Debian (Web Server): Where we have the Apache server and the WordPress site hosted.
-* Spoofing and DDoS tools installed on virtual machines.
+* Spoofing and DoS tools installed on virtual machines.
 * An isolated network environment.
 * Necessary tools?
 
