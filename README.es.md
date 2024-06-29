@@ -79,6 +79,10 @@ iface enp0s3 inet static
 ```
 
 * Guarda los cambios y cierra la ventana de configuración.
+
+![configuracion manual de IPs](assets/ip-config.png)
+*Ejemplo de configuración de ambos archivos (Kali y Debian), puede contener más comandos de los mostrados, pero agrega los que hagan falta de la configuración anteriormente proporcionada, pues serán necesarios.*
+
 * Reinicia el servicio de red:
 
 ```bash
@@ -119,6 +123,7 @@ iface eth0 inet static
 sudo systemctl restart networking
 ```
 * Vuelve a usar el comando  `ip addr show` y verifica que tu dirección IP sea la que configuraste en address.
+
 
 
 ### PASO 2: Verificar la Conexión Entre las Máquinas
@@ -200,6 +205,8 @@ sudo wireshark
 * Con wireshark abierto haz clic en el botón de "play" para comenzar a capturar paquetes.
 * Aplica filtros para enfocarte en los tipos específicos de tráfico, como arp, tcp, udp, etc.
 
+![Monitereo y analisis con wireshark](assets/monitoring-spoof.png)
+
 
 ### PASO 4: DoS - práctica ICMP Flood 
 
@@ -218,8 +225,10 @@ sudo hping3 -1 <IP_debian> -I eth0
 * Con wireshark abierto haz clic en el botón de "play" para comenzar a capturar paquetes.
 * Mientras hping3 se está ejecutando puedes aplicar un filtro para ver solo el tráfico ICMP. El filtro es icmp.
 
+![Monitoreo con DoS](assets/monitoring-DoS.png)
+
  
-## Discusión sobre estrategias de mitigaciónMonitoreo y Análisis (10 minutos)
+## Discusión sobre estrategias de mitigación
 * Guíe a los estudiantes sobre las herramientas de monitoreo disponibles en Kali Linux, como hto, para observar el impacto de DoS en el servidor de WordPress.
 * Los estudiantes deben monitorear la capacidad de respuesta del servidor de WordPress, la tasa de errores y el uso de recursos del sistema durante el ataque.
 * Discusión sobre estrategias de mitigación (10 minutos)

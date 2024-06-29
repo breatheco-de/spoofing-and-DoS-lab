@@ -81,6 +81,10 @@ iface enp0s3 inet static
 ```
 
 * Save the changes and close the configuration window.
+
+![configuracion manual de IPs](assets/ip-config.png)
+*Example configuration for both files (Kali and Debian), may contain more commands than shown, but add any missing commands from the previously provided configuration, as they will be necessary.*
+
 * Restart the network service:
 
 ```bash
@@ -206,6 +210,7 @@ sudo wireshark
 * With Wireshark open, click the "play" button to start capturing packets.
 * Apply filters to focus on specific types of traffic, such as ARP, TCP, UDP, etc.
 
+![Monitereo y analisis con wireshark](assets/monitoring-spoof.png)
 
 ### Step 4: DoS - ICMP Flood Practice
 
@@ -224,6 +229,7 @@ sudo hping3 -1 <IP_debian> -I eth0
 * With Wireshark open, click the "play" button to start capturing packets.
 * While hping3 is running, you can apply a filter to see only the ICMP traffic. The filter is icmp.
 
+![Monitoreo con DoS](assets/monitoring-DoS.png)
  
 ## Discussion on Mitigation Strategies
 
