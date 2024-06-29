@@ -1,6 +1,6 @@
 # Spoofing y DoS a un sitio web
 
-Esta práctica te permitirá entender mejor las técnicas de spoofing y DDoS, así como sus efectos en un entorno web. 
+Esta práctica te permitirá entender mejor las técnicas de spoofing y DoS, así como sus efectos en un entorno web. 
 
 
 <!-- hide -->
@@ -10,7 +10,7 @@ Esta práctica te permitirá entender mejor las técnicas de spoofing y DDoS, as
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-*These instructions are [available in english](https://github.com/breatheco-de/spoofing-and-DDoS-lab/blob/main/README.md)*
+*These instructions are [available in english](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/main/README.md)*
 <!-- endhide -->
 
 
@@ -27,7 +27,7 @@ Esta práctica te permitirá entender mejor las técnicas de spoofing y DDoS, as
 
 ### Instalación local:
 
-Clona el repositorio en tu ambiente local [repositorio](https://github.com/breatheco-de/spoofing-and-DDoS-lab) y sigue las instrucciones en el archivo readme.
+Clona el repositorio en tu ambiente local [repositorio](https://github.com/breatheco-de/spoofing-and-DoS-lab) y sigue las instrucciones en el archivo readme.
 
 
 
@@ -45,7 +45,7 @@ Para esta práctica específica de Spoofing y DoS, lo mejor sería configurar la
 * Oracle VirtualBox
 * Máquina virtual con Kali Linux (Atacante)
 * Máquina virtual con Debian (Servidor Web): Donde tenemos alojado el servidor Apache y el sitio WordPress.
-* Herramientas de spoofing y DDoS instaladas en máquinas virtuales.
+* Herramientas de spoofing y DoS instaladas en máquinas virtuales.
 * Un entorno de red aislado.
 * Herramientas Necesarias?
 
