@@ -1,27 +1,15 @@
 {
-    "language": "node",
     "title": {
-      "us": "Spoofing and DoS on web site",
-      "es": "Spoofing and DoS on web site"
+      "us": "Attacking with spoofing and DoS on a WordPress website",
+      "es": "Ataque de Spoofing and DoS sobre un website WordPress"
     },
-    "slug": "Spoofing-and-DoS-on-web-site",
     "description": {
       "us": "This practice will allow you to better understand spoofing and DoS techniques, as well as their effects in a web environment.",
       "es": "Esta práctica te permitirá entender mejor las técnicas de spoofing y DoS, así como sus efectos en un entorno web. "
     },
-    "grading": "isolated",
-    "repository": "https://github.com/4GeeksAcademy/iptables-blocking-practice",
+    "repository": "https://github.com/breatheco-de/spoofing-and-DoS-lab",
     "duration": 2,
     "difficulty": "intermediate",
-    "videoSolutions": true,
-    "projectType": "tutorial",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "skills": ["cybersecurity","ciberseguridad","network"],
-    "graded": true,
-    "editor": {
-      "version": "3.1.23"
-    },
-    "telemetry": {
-      "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-    }
-  }
+}
