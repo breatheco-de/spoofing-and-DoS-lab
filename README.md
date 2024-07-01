@@ -1,35 +1,24 @@
-# Spoofing and DoS on web site
-
-This practice will allow you to better understand spoofing and DoS techniques, as well as their effects in a web environment.
-
 <!-- hide -->
-<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/deploying-wordpress-debian/blob/master/js-bg-badge.png"></a>
-
-
+# Spoofing and DoS on web site
+<!-- endhide -->
+This practice will allow you to better understand spoofing and DoS techniques, as well as their effects in a web environment.
+<!-- hide -->
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/4GeeksAcademy/deploying-wordpress-debian/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
-
 
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 *These instructions are [available in english](https://github.com/4GeeksAcademy/deploying-wordpress-debian/blob/main/README.md)*
-<!-- endhide -->
 
-<!-- hide -->
 ### Before you start...
 
 > We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.
 <!-- endhide -->
 
-<!-- hide -->
-
 
 ## 🌱 How to start a project?
 
-
-### Local Installation:
-Clone the repository to your local environment [repository](https://github.com/breatheco-de/spoofing-and-DoS-lab) and follow the instructions in the README file.
-
+Do not clone this or any repository, follow instructions below:
 
 ### Requirements
 
@@ -40,7 +29,6 @@ For this specific practice of Spoofing and DoS, it is best to set up the network
 **Controlled Environment:** Allows complete control over the network environment, facilitating the monitoring and analysis of network traffic generated during the tests.
 
 **Realistic Simulation:** Although isolated, an internal network can effectively simulate a real network environment for Spoofing and DoS practices.
-
 
 * Oracle VirtualBox
 * Virtual machine with Kali Linux (Attacker)
@@ -92,9 +80,8 @@ sudo systemctl restart networking
 ```
 * Use the ip addr show command again and verify that your IP address is the one you configured in the address.
 
+#### Configure the Network of the Kali Linux Machine (Attacker)
 
-
-#### Configure the Network of the Kali Linux Machine (Attacker):
 * Select your Kali Linux virtual machine and click "Settings".
 * Go to the "Network" section.
 * Set "Adapter 1" to "Internal Network".
@@ -238,10 +225,6 @@ sudo hping3 -1 <IP_debian> -I eth0
 * Discussion on mitigation strategies (10 minutes):
 * Cover possible defensive measures, such as using firewalls.
 * Conclude with best practices for protecting a WordPress site against real-world DoS and spoofing attacks.
-
-
-
-
 
 
 <!-- hide -->
