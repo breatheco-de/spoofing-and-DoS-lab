@@ -7,6 +7,7 @@
       "us": "This practice will allow you to better understand spoofing and DoS techniques, as well as their effects in a web environment.",
       "es": "Esta práctica te permitirá entender mejor las técnicas de spoofing y DoS, así como sus efectos en un entorno web. "
     },
+    "preview": "https://raw.githubusercontent.com/breatheco-de/spoofing-and-DoS-lab/main/assets/preview-DoS.png",
     "repository": "https://github.com/breatheco-de/spoofing-and-DoS-lab",
     "duration": 2,
     "difficulty": "intermediate",
