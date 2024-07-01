@@ -12,5 +12,5 @@
     "duration": 2,
     "difficulty": "intermediate",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "skills": ["cybersecurity","ciberseguridad","network"],
+    "technologies": ["cybersecurity","ciberseguridad","network"]
 }
