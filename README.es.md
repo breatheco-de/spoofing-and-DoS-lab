@@ -1,9 +1,5 @@
-# Spoofing y DoS a un sitio web
-
-Esta práctica te permitirá entender mejor las técnicas de spoofing y DoS, así como sus efectos en un entorno web. 
-
-
 <!-- hide -->
+# Spoofing y DoS a un sitio web
 
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/4GeeksAcademy/deploying-wordpress-debian/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
@@ -11,11 +7,6 @@ Esta práctica te permitirá entender mejor las técnicas de spoofing y DoS, as�
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 *These instructions are [available in english](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/main/README.md)*
-<!-- endhide -->
-
-
-<!-- hide -->
-
 
 ### Antes de empezar...
 
@@ -23,13 +14,13 @@ Esta práctica te permitirá entender mejor las técnicas de spoofing y DoS, as�
 
 <!-- endhide -->
 
+Esta práctica te permitirá entender mejor las técnicas de spoofing y DoS, así como sus efectos en un entorno web. 
+
 ## 🌱 ¿Cómo empezar este proyecto?
 
 ### Instalación local:
 
 Clona el repositorio en tu ambiente local [repositorio](https://github.com/breatheco-de/spoofing-and-DoS-lab) y sigue las instrucciones en el archivo readme.
-
-
 
 ### Requisitos
 
@@ -236,7 +227,7 @@ sudo hping3 -1 <IP_debian> -I eth0
 * Concluya con las mejores prácticas para proteger un sitio de WordPress contra ataques DoS y spoofing del mundo real.
 
 
-
+<!-- hide -->
 
 ## Colaboradores
 
