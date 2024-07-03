@@ -18,7 +18,7 @@ This practice will allow you to better understand spoofing and DoS techniques, a
 
 ## 🌱 How to start a project?
 
-Do not clone this or any repository, follow instructions below:
+Do not clone this or any repository, follow the instructions below:
 
 ### Requirements
 
@@ -70,7 +70,7 @@ iface enp0s3 inet static
 
 * Save the changes and close the configuration window.
 
-![configuracion manual de IPs](assets/ip-config.png)
+![Manual setting dof IPs](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/ip-config.png)
 *Example configuration for both files (Kali and Debian), may contain more commands than shown, but add any missing commands from the previously provided configuration, as they will be necessary.*
 
 * Restart the network service:
@@ -136,7 +136,7 @@ $ ping <IP_kali>
 > Replace <IP_kali> with the IP address you obtained for the Kali machine.
 
 Graphical example of how pings look when connected
-![verificación de conexión entre las maquinas virtuales](assets/ping-view.png)
+<!-- ![verificación de conexión entre las maquinas virtuales](assets/ping-view.png) -->
 
 
 ### Step 3: ARP Spoofing Practice
@@ -197,7 +197,7 @@ sudo wireshark
 * With Wireshark open, click the "play" button to start capturing packets.
 * Apply filters to focus on specific types of traffic, such as ARP, TCP, UDP, etc.
 
-![Monitereo y analisis con wireshark](assets/monitoring-spoof.png)
+![Monitoring and analysis with WireShark](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/monitoring-spoof.png)
 
 ### Step 4: DoS - ICMP Flood Practice
 
@@ -216,7 +216,7 @@ sudo hping3 -1 <IP_debian> -I eth0
 * With Wireshark open, click the "play" button to start capturing packets.
 * While hping3 is running, you can apply a filter to see only the ICMP traffic. The filter is icmp.
 
-![Monitoreo con DoS](assets/monitoring-DoS.png)
+![Monitoring DoS](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/monitoring-DoS.png)
  
 ## Discussion on Mitigation Strategies
 
@@ -237,6 +237,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 2. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr),  contribution: (bug reports) 🐛
 
 3. [Lorena Gubaira (lorenagubaira)](https://github.com/lorenagubaira), contribution: (bug reports) 🐛, contribution: (editor), (translation) 🌎
+
+4. [Tomas Gonzalez (tommygonzaleza)](https://github.com/tommygonzaleza), contribution: (editor)
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
 
