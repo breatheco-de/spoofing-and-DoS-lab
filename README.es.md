@@ -71,7 +71,7 @@ iface enp0s3 inet static
 
 * Guarda los cambios y cierra la ventana de configuración.
 
-![configuracion manual de IPs](assets/ip-config.png)
+![configuracion manual de IPs](https://github.com/breatheco-de/spoofing-and-DoS-lab/raw/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/ip-config.png?raw=true)
 *Ejemplo de configuración de ambos archivos (Kali y Debian), puede contener más comandos de los mostrados, pero agrega los que hagan falta de la configuración anteriormente proporcionada, pues serán necesarios.*
 
 * Reinicia el servicio de red:
@@ -137,10 +137,6 @@ $ ping <IP_kali>
 
 > Reemplaza <IP_kali> con la dirección IP que obtuviste para la máquina Kali.
 
-Ejemplo gráfico de cómo se ven los ping al estar conectados
-
-![verificación de conexión entre las maquinas virtuales](assets/ping-view.png)
-
 
 ### PASO 3:Práctica de ARP Spoofing
 
@@ -196,7 +192,7 @@ sudo wireshark
 * Con wireshark abierto haz clic en el botón de "play" para comenzar a capturar paquetes.
 * Aplica filtros para enfocarte en los tipos específicos de tráfico, como arp, tcp, udp, etc.
 
-![Monitereo y analisis con wireshark](assets/monitoring-spoof.png)
+![Monitereo y analisis con wireshark](https://github.com/breatheco-de/spoofing-and-DoS-lab/raw/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/monitoring-spoof.png)
 
 
 ### PASO 4: DoS - práctica ICMP Flood 
@@ -216,7 +212,7 @@ sudo hping3 -1 <IP_debian> -I eth0
 * Con wireshark abierto haz clic en el botón de "play" para comenzar a capturar paquetes.
 * Mientras hping3 se está ejecutando puedes aplicar un filtro para ver solo el tráfico ICMP. El filtro es icmp.
 
-![Monitoreo con DoS](assets/monitoring-DoS.png)
+![Monitoreo con DoS](https://github.com/breatheco-de/spoofing-and-DoS-lab/raw/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/monitoring-DoS.png)
 
  
 ## Discusión sobre estrategias de mitigación
