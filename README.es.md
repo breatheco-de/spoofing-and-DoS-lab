@@ -1,5 +1,5 @@
 <!-- hide -->
-# Suplantación y DoS en un sitio web
+# Spoofing y DoS en un sitio web
 <!-- endhide -->
 Esta práctica te permitirá comprender mejor las técnicas de suplantación y DoS, así como sus efectos en un entorno web.
 <!-- hide -->
@@ -21,20 +21,20 @@ No clones este ni ningún repositorio, sigue las instrucciones a continuación:
 
 ### Requisitos
 
-Para esta práctica específica de Suplantación y DoS, es mejor configurar la red como una Red Interna. Esto se debe a varias razones:
+Para esta práctica específica de Spoofing y DoS, es mejor configurar la red como una Red Interna. Esto se debe a varias razones:
 
 - **Aislamiento Completo:** Asegura que las actividades de ataque y prueba no interfieran con la red de producción ni con otras redes externas. Esto previene cualquier posible impacto no deseado en otros sistemas.
 
 - **Entorno Controlado:** Permite un control completo sobre el entorno de la red, facilitando el monitoreo y análisis del tráfico de red generado durante las pruebas.
 
-- **Simulación Realista:** Aunque está aislada, una red interna puede simular efectivamente un entorno de red real para las prácticas de Suplantación y DoS.
+- **Simulación Realista:** Aunque está aislada, una red interna puede simular efectivamente un entorno de red real para las prácticas de Spoofing y DoS.
 
 ### Herramientas y Máquinas Virtuales
 
 * Oracle VirtualBox
 * Máquina virtual con Kali Linux (Atacante)
-* Máquina virtual con Debian (Servidor Web): Donde tenemos el servidor Apache y el sitio de WordPress alojado.
-* Herramientas de Suplantación y DoS instaladas en las máquinas virtuales.
+* Máquina virtual con Debian (Servidor Web): Donde tenemos el servidor Apache y el sitio de WordPress alojado. 
+* Herramientas de Spoofing y DoS instaladas en las máquinas virtuales.
 * Un entorno de red aislado.
 * Herramientas necesarias: **arpspoof, hping3, wireshark**
 
