@@ -8,7 +8,7 @@ Esta práctica te permitirá comprender mejor las técnicas de suplantación y D
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-*Estas instrucciones están [disponibles en inglés](https://github.com/4GeeksAcademy/deploying-wordpress-debian/blob/main/README.md)*
+*Estas instrucciones están [disponibles en inglés](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/main/README.md)*
 
 ### Antes de comenzar...
 
@@ -218,7 +218,7 @@ sudo wireshark
 * [ ] Con Wireshark abierto, pulse el botón «play» para empezar a capturar paquetes.
 * [ ] Aplica filtros para centrarte en tipos específicos de tráfico, como ARP, TCP, UDP, etc.
 
-![Monitoring and analysis with WireShark](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/monitoring-spoof.png)
+![Monitereo y analisis con wireshark](https://github.com/breatheco-de/spoofing-and-DoS-lab/raw/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/monitoring-spoof.png)
 
 ### Paso 4: Práctica de DoS - Inundación ICMP
 
@@ -237,7 +237,7 @@ sudo hping3 -1 <IP_debian> -I eth0
 * [ ] Con Wireshark abierto, haz clic en el botón «play» para empezar a capturar paquetes.
 * [ ] Mientras hping3 se está ejecutando, puedes aplicar un filtro para ver sólo el tráfico ICMP. El filtro es icmp.
 
-![Monitoring DoS](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/monitoring-DoS.png)
+![Monitoreo con DoS](https://github.com/breatheco-de/spoofing-and-DoS-lab/raw/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/monitoring-DoS.png)
 
 ## Discusión sobre Estrategias de Mitigación
 
