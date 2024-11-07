@@ -43,7 +43,7 @@ Para esta práctica específica de Suplantación y DoS, es mejor configurar la r
 ### Paso 1: Configurar la Red en VirtualBox
 
 #### Configurar la Red de la Máquina Debian (Servidor Web):
-* [ ] Abre VirtualBox.
+- [ ] Abre VirtualBox.
 * [ ] Selecciona tu máquina virtual Debian y haz clic en "Configuración".
 * [ ] Ve a la sección "Red".
 * [ ] Configura el "Adaptador 1" como "Red Interna".
@@ -244,8 +244,8 @@ sudo hping3 -1 <IP_debian> -I eth0
 * [ ] Guiar a los estudiantes sobre las herramientas de monitorización disponibles en Kali Linux, como `htop`, para observar el impacto del ataque DoS en el servidor WordPress.
 * [ ] Los estudiantes deben monitorizar la capacidad de respuesta del servidor WordPress, la tasa de errores y el uso de recursos del sistema durante el ataque.
 * [ ] Debate sobre las estrategias de mitigación (10 minutos):
-* Cubrir posibles medidas defensivas, como el uso de firewalls (cortafuegos).
-* Concluir con las mejores prácticas para proteger un sitio WordPress contra ataques DoS y spoofing en el mundo real.
+* [ ] Cubrir posibles medidas defensivas, como el uso de firewalls (cortafuegos).
+* [ ] Concluir con las mejores prácticas para proteger un sitio WordPress contra ataques DoS y spoofing en el mundo real.
 
 <!-- hide -->
 
