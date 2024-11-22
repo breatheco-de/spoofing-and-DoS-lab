@@ -17,8 +17,8 @@ This practice will allow you to better understand spoofing and DoS techniques, a
 > We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.
 <!-- endhide -->
 
-<onlyfor saas="true" withBanner="true">
-
+<onlyfor saas="true" withBanner="false">
+    
 ## 🌱 How to start a project?
 
 Do not clone this or any repository, follow the instructions below:
