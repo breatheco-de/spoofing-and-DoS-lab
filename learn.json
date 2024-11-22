@@ -12,7 +12,7 @@
     "duration": 2,
     "difficulty": "intermediate",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "technologies": ["cybersecurity","ciberseguridad","network"],
+    "technologies": ["cybersecurity","ciberseguridad","network", "redes"],
     "delivery": {
 		"formats": ["no_delivery"]
 	}
