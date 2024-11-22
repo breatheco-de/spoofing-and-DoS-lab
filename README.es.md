@@ -1,6 +1,7 @@
 <!-- hide -->
 # Spoofing y DoS en un sitio web
 <!-- endhide -->
+
 Esta práctica te permitirá comprender mejor las técnicas de suplantación y DoS, así como sus efectos en un entorno web.
 <!-- hide -->
 > Por [@rosinni](https://github.com/rosinni) y [otros colaboradores](https://github.com/4GeeksAcademy/deploying-wordpress-debian/graphs/contributors) en [4Geeks Academy](https://4geeksacademy.co/)
@@ -14,6 +15,8 @@ Esta práctica te permitirá comprender mejor las técnicas de suplantación y D
 
 > ¡Te necesitamos! Estos ejercicios son construidos y mantenidos en colaboración con contribuyentes como tú. Si encuentras algún error o falta de ortografía, por favor contribuye y/o repórtalo.
 <!-- endhide -->
+
+<onlyfor saas="true" withBanner="false">
 
 ## 🌱 ¿Cómo comenzar un proyecto?
 
@@ -37,6 +40,8 @@ Para esta práctica específica de Spoofing y DoS, es mejor configurar la red co
 * Herramientas de Spoofing y DoS instaladas en las máquinas virtuales.
 * Un entorno de red aislado.
 * Herramientas necesarias: **arpspoof, hping3, wireshark**
+
+</onlyfor>
 
 ## 📝 Instrucciones
 

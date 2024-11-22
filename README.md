@@ -1,7 +1,9 @@
 <!-- hide -->
 # Spoofing and DoS on web site
 <!-- endhide -->
+
 This practice will allow you to better understand spoofing and DoS techniques, as well as their effects in a web environment.
+
 <!-- hide -->
 > By [@rosinni](https://github.com/rosinni) and [other contributors](https://github.com/4GeeksAcademy/deploying-wordpress-debian/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
@@ -15,6 +17,8 @@ This practice will allow you to better understand spoofing and DoS techniques, a
 > We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.
 <!-- endhide -->
 
+<onlyfor saas="true" withBanner="false">
+    
 ## 🌱 How to start a project?
 
 Do not clone this or any repository, follow the instructions below:
@@ -37,6 +41,8 @@ For this specific practice of Spoofing and DoS, it is best to set up the network
 * Spoofing and DoS tools installed on virtual machines.
 * An isolated network environment.
 * Necessary tools: **arpspoof, hping3, wireshark**
+
+</onlyfor>
 
 ## 📝 Instructions
 
