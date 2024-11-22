@@ -16,7 +16,7 @@ Esta práctica te permitirá comprender mejor las técnicas de suplantación y D
 > ¡Te necesitamos! Estos ejercicios son construidos y mantenidos en colaboración con contribuyentes como tú. Si encuentras algún error o falta de ortografía, por favor contribuye y/o repórtalo.
 <!-- endhide -->
 
-<onlyfor saas="true" withBanner="true">
+<onlyfor saas="true" withBanner="false">
 
 ## 🌱 ¿Cómo comenzar un proyecto?
 
