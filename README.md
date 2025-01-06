@@ -80,7 +80,7 @@ iface enp0s3 inet static
 
 * [ ] Save the changes and close the configuration window.
 
-![Manual setting dof IPs](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/ip-config.png?raw=true)
+![Manual setting dof IPs](https://github.com/breatheco-de/spoofing-and-DoS-lab/blob/dc2d83a7772cb56ce82de4793f60e704be11995d/assets/ip-config.png?raw=true&hello)
 
 > *Example configuration for both files (Kali and Debian), may contain more commands than shown, but add any missing commands from the previously provided configuration, as they will be necessary.*
 
